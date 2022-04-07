@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://hansken.db.elephantsql.com:5432/wxgiklio
+    username: wxgiklio
+    password: FrJsZEtIriq4daQs-2OIWhudCyPDP8Mk1
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
